@@ -10,6 +10,7 @@ export const echartOptions = {
       });
       return result;
     },
+    confine: true,
   },
   legend: {
     data: [
@@ -30,9 +31,10 @@ export const echartOptions = {
     },
   },
   grid: {
-    left: "3%",
-    right: "4%",
-    bottom: "3%",
+    left: "10%",
+    right: "10%",
+    top: "10%",
+    bottom: "10%",
     containLabel: true,
   },
   xAxis: {
